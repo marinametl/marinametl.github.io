@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .container {
+            background-color: rgb(141, 165, 209);
+            height: 100vh;
+            width: 100%;
+        }
+
+        .news {
+            width: 300px;
+            height: 33%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            background-color: black;
+            font-weight: bold;
+            font-size: 2em;
+            animation: news 1s .2s ease-in-out infinite;
+            transition: .5s
+        }
+
+        .pics {
+            width: 300px;
+            height: 33%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        background-color: rgba(102, 32, 32, 0.644);
+        font-weight: bold;
+        font-size: 2em;
+        transition: .5s
+        }
+
+        .info {
+            width: 300px;
+            height: 33%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            background-color: rgba(196, 155, 81, 0.76);
+            font-weight: bold;
+            font-size: 2em;
+            transition: .5s
+        }
+
+        .news:hover {
+            background-color: black;
+            width: 600px;
+        }
+
+        .pics:hover {
+            background-color: rgba(102, 32, 32, 0.644);
+            width: 600px;
+        }
+        
+        .info:hover {
+            background-color:  rgba(196, 155, 81, 0.76);
+            width: 600px;
+        }
+    </style>
+    
+</body>
+<div class="container">
+    <div class="news"> Новости</div>
+    <div class="pics">Картинки</div>
+    <div class="info">Информация</div>
+</div>
+</html>
